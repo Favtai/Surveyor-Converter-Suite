@@ -1,0 +1,4 @@
+nicegui==3.6.1
+folium
+pandas
+pyproj
