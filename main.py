@@ -397,4 +397,4 @@ with ui.footer().classes('bg-slate-100 text-center py-4 text-sm text-slate-600')
     ui.label(f'Surveyor Suite v2.1 | {__import__("datetime").date.today()}')
 
 if __name__ in {"__main__", "__mp_main__"}:
-    ui.run(title='Surveyor Suite', host='0.0.0.0', port=7860)
+    ui.run(host='0.0.0.0', port=7860)
