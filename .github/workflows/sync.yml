@@ -2,7 +2,7 @@ name: Sync to Hugging Face hub
 
 on:
   push:
-    branches: [main] # Set this to 'master' if your main branch is called master
+    branches: [master] # Set this to 'master' if your main branch is called master
   workflow_dispatch:
 
 jobs:
