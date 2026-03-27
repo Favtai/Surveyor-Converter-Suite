@@ -2,7 +2,7 @@ name: Sync to Hugging Face hub
 
 on:
   push:
-    branches: [master] # Set this to 'master' if your main branch is called master
+    branches: [master] 
   workflow_dispatch:
 
 jobs:
@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Favtai:$HF_TOKEN@huggingface.co/spaces/Favtai/Surveying_Calculation_Suite main
+        run: git push --force https://Favtai:$HF_TOKEN@huggingface.co/spaces/Favtai/Surveying_Calculation_Suite master:main
